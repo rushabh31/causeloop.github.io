@@ -30,8 +30,10 @@ Sourced directly from the Causeloop brand guidelines.
 | Slate | `#5A6480` | Body text |
 | Paper | `#FBFBFC` | Canvas |
 
-**The mark** is the initial `C` drawn as an *open loop* — the recurring cycle of risk,
-broken — with a single terracotta point marking the **root cause** the platform surfaces.
+**The mark** is a loop that nearly closes — the recurring cycle of risk — then *breaks
+outward into an arrow*: the cycle escaped. A single terracotta point marks the **root
+cause** the platform surfaces. Strokes inherit `currentColor`, so the mark sits in navy,
+white (reversed), or mono contexts without edits.
 
 ### The "Loopface" type system
 

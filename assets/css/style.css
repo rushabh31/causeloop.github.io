@@ -484,6 +484,11 @@ svg.mark{display:block}
   .footer-grid{grid-template-columns:1fr;gap:28px}
   .float-chip{display:none}
   .belief{font-size:1.3rem}
+  /* CTA: stack input + full-width centered button, tidy the caption */
+  .cta-form{flex-direction:column;gap:12px}
+  .cta-form input{width:100%;min-width:0;text-align:center}
+  .cta-form .btn-primary{width:100%;justify-content:center}
+  .cta-note{font-size:.58rem;letter-spacing:.1em;line-height:2}
 }
 @media (max-width:440px){
   .steps,.team-grid{grid-template-columns:1fr}

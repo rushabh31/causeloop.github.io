@@ -303,58 +303,54 @@
       <div class="sec-head reveal">
         <span class="eyebrow"><span class="dot"></span>About us</span>
         <h2 class="sec-title">Born inside one enterprise. Built for all of them.</h2>
-        <p class="sec-lede">Causeloop began as a simplified internal system inside a large, systemically important institution — then we realized the pattern was everywhere.</p>
+        <p class="sec-lede">The short version of how we got here — and why fragmented issue data is a category-scale problem.</p>
       </div>
 
-      <!-- Clustering illustration — issues filed separately, clustered by underlying pattern -->
-      <div class="about-art reveal" aria-hidden="true">
-        <div class="about-art-card">
-          <div class="aa-head">
-            <span class="mono">Same failure modes · filed as separate issues</span>
-            <span class="pill sm"><span class="pulse"></span>Clustered by pattern</span>
-          </div>
-          <svg class="clustergraph" viewBox="0 0 760 280" role="img" aria-label="Scattered issues clustering into a few shared underlying patterns">
-            <defs>
-              <linearGradient id="edge2" x1="0" y1="0" x2="1" y2="0">
-                <stop offset="0" stop-color="var(--terra)" stop-opacity=".1"/>
-                <stop offset="1" stop-color="var(--terra)" stop-opacity=".8"/>
-              </linearGradient>
-            </defs>
-            <g class="edges" stroke="url(#edge2)" stroke-width="1.6" fill="none">
-              <path d="M70 48 C320 60 470 70 620 72"/>
-              <path d="M150 86 C360 80 480 74 620 72"/>
-              <path d="M96 124 C340 110 470 86 620 72"/>
-              <path d="M58 158 C320 150 480 142 620 140"/>
-              <path d="M168 142 C360 142 480 140 620 140"/>
-              <path d="M88 192 C340 168 470 150 620 140"/>
-              <path d="M64 232 C320 220 470 214 620 208"/>
-              <path d="M158 214 C360 212 480 210 620 208"/>
-              <path d="M112 256 C340 236 470 220 620 208"/>
-            </g>
-            <g class="nodes">
-              <circle cx="70" cy="48" r="5.5"/><circle cx="150" cy="86" r="5.5"/><circle cx="96" cy="124" r="5.5"/>
-              <circle cx="58" cy="158" r="5.5"/><circle cx="168" cy="142" r="5.5"/><circle cx="88" cy="192" r="5.5"/>
-              <circle cx="64" cy="232" r="5.5"/><circle cx="158" cy="214" r="5.5"/><circle cx="112" cy="256" r="5.5"/>
-            </g>
-            <g class="hubs">
-              <g><circle class="hub-ring" cx="620" cy="72" r="24"/><circle class="hub" cx="620" cy="72" r="12"/><circle class="hub-core" cx="620" cy="72" r="5"/></g>
-              <g><circle class="hub-ring" cx="620" cy="140" r="24"/><circle class="hub" cx="620" cy="140" r="12"/><circle class="hub-core" cx="620" cy="140" r="5"/></g>
-              <g><circle class="hub-ring" cx="620" cy="208" r="24"/><circle class="hub" cx="620" cy="208" r="12"/><circle class="hub-core" cx="620" cy="208" r="5"/></g>
-            </g>
-          </svg>
-          <div class="aa-foot">
-            <div class="metric"><span class="num">1,200+</span><span class="lab">scattered issues</span></div>
-            <svg class="flow" viewBox="0 0 40 24" aria-hidden="true"><path d="M2 12h28M24 6l8 6-8 6"/></svg>
-            <div class="metric accent"><span class="num">3</span><span class="lab">underlying patterns</span></div>
+      <div class="about-grid">
+        <!-- A narrow editorial column -->
+        <div class="about-story reveal">
+          <p>Causeloop began as a simplified internal system inside a large, systemically important institution. The team noticed something the dashboards never said out loud: most of what was being tracked as separate issues across the firm wasn't separate at all. The same underlying failure modes were recurring across business lines, year after year — hidden by org structure and the simple fact that no one had a view across the silos.</p>
+          <p>When those issues were connected — clustered by underlying pattern instead of by which team filed them — two things became obvious. First, the firm was solving the same problems repeatedly, paying for them every time. Second, once the patterns were visible, predicting where they'd recur next was straightforward, and remediation that had worked once could be propagated systematically.</p>
+          <p>That experience pointed to a category-scale opportunity. The same principle that worked inside one enterprise applies to every organization that drowns in fragmented issue data — which is, in our experience, most of them.</p>
+        </div>
+
+        <!-- Convergence illustration — separate issues resolve into a few underlying patterns -->
+        <div class="about-art reveal" style="--d:.08s" aria-hidden="true">
+          <div class="about-art-card">
+            <div class="aa-head">
+              <span class="aa-col mono">Issues, as filed</span>
+              <span class="aa-col mono">Underlying patterns</span>
+            </div>
+            <svg class="clustergraph" viewBox="0 0 480 300" role="img" aria-label="Separate issues converging into three shared underlying patterns">
+              <defs>
+                <linearGradient id="edge2" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0" stop-color="var(--terra)" stop-opacity=".08"/>
+                  <stop offset="1" stop-color="var(--terra)" stop-opacity=".7"/>
+                </linearGradient>
+              </defs>
+              <g class="edges" stroke="url(#edge2)" stroke-width="1.5" fill="none">
+                <path d="M58 54 C250 54 320 70 410 70"/><path d="M118 70 C250 70 320 70 410 70"/><path d="M70 90 C250 90 320 70 410 70"/>
+                <path d="M58 134 C250 134 320 150 410 150"/><path d="M118 150 C250 150 320 150 410 150"/><path d="M70 170 C250 170 320 150 410 150"/>
+                <path d="M58 214 C250 214 320 230 410 230"/><path d="M118 230 C250 230 320 230 410 230"/><path d="M70 250 C250 250 320 230 410 230"/>
+              </g>
+              <g class="nodes">
+                <circle cx="58" cy="54" r="5"/><circle cx="118" cy="70" r="5"/><circle cx="70" cy="90" r="5"/>
+                <circle cx="58" cy="134" r="5"/><circle cx="118" cy="150" r="5"/><circle cx="70" cy="170" r="5"/>
+                <circle cx="58" cy="214" r="5"/><circle cx="118" cy="230" r="5"/><circle cx="70" cy="250" r="5"/>
+              </g>
+              <g class="hubs">
+                <g><circle class="hub-ring" cx="410" cy="70" r="22"/><circle class="hub" cx="410" cy="70" r="11"/><circle class="hub-core" cx="410" cy="70" r="4.5"/></g>
+                <g><circle class="hub-ring" cx="410" cy="150" r="22"/><circle class="hub" cx="410" cy="150" r="11"/><circle class="hub-core" cx="410" cy="150" r="4.5"/></g>
+                <g><circle class="hub-ring" cx="410" cy="230" r="22"/><circle class="hub" cx="410" cy="230" r="11"/><circle class="hub-core" cx="410" cy="230" r="4.5"/></g>
+              </g>
+            </svg>
+            <div class="aa-foot">
+              <div class="metric"><span class="num">1,200+</span><span class="lab">scattered issues</span></div>
+              <svg class="flow" viewBox="0 0 40 24" aria-hidden="true"><path d="M2 12h28M24 6l8 6-8 6"/></svg>
+              <div class="metric accent"><span class="num">3</span><span class="lab">underlying patterns</span></div>
+            </div>
           </div>
         </div>
-      </div>
-
-      <!-- A narrow editorial column -->
-      <div class="about-story reveal">
-        <p>Causeloop began as a simplified internal system inside a large, systemically important institution. The team noticed something the dashboards never said out loud: most of what was being tracked as separate issues across the firm wasn't separate at all. The same underlying failure modes were recurring across business lines, year after year, hidden by org structure and the simple fact that no one had a view across the silos.</p>
-        <p>When those issues were connected — clustered by underlying pattern instead of by which team filed them — two things became immediately obvious. First, the firm was solving the same problems repeatedly, paying for them every time. Second, once the patterns were visible, predicting where they'd recur next was relatively straightforward, and remediation that had worked once could be propagated systematically.</p>
-        <p>That experience pointed to a category-scale opportunity. The same principle that worked inside one enterprise applies to every organization that drowns in fragmented issue data — which is, in our experience, most of them.</p>
       </div>
 
       <!-- What we believe -->
@@ -371,8 +367,8 @@
       <div class="team-block">
         <div class="sec-head reveal">
           <span class="eyebrow"><span class="dot"></span>Team</span>
-          <h2 class="sec-title">Built by a small, senior team.</h2>
-          <p class="sec-lede">Founding team backgrounds: enterprise risk, audit, financial-services platform engineering, and applied machine learning at scale.</p>
+          <h2 class="sec-title sub-title">Built by a small, senior team.</h2>
+          <p class="sec-lede">Founding backgrounds in enterprise risk, audit, financial-services platform engineering, and applied machine learning at scale.</p>
         </div>
 
         <!-- Placeholder founder cards — swap photos, names, bios and LinkedIn URLs when the team goes public -->

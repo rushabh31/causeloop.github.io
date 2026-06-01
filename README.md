@@ -31,9 +31,9 @@ Sourced directly from the Causeloop brand guidelines.
 | Paper | `#FBFBFC` | Canvas |
 
 **The mark** is a loop that nearly closes — the recurring cycle of risk — then *breaks
-outward into an arrow*: the cycle escaped. A single terracotta point marks the **root
-cause** the platform surfaces. Strokes inherit `currentColor`, so the mark sits in navy,
-white (reversed), or mono contexts without edits.
+outward into an arrow*: the cycle escaped. It carries the brand **blue gradient**
+(cobalt `#4A78FF` → cyan `#1FC2FF`), and a single terracotta point marks the **root
+cause** the platform surfaces.
 
 ### The "Loopface" type system
 

@@ -39,6 +39,7 @@ positioned around the same infinity path.
 | `lockup-horizontal.svg` | Primary lockup (mark + wordmark) |
 | `lockup-stacked.svg` | Stacked lockup |
 | `lockup-reversed.svg` | Wordmark white, for dark backgrounds |
+| `../animation.html` | Looping brand animation: loop → cause → break → logo |
 
 ### Clear space & minimum size
 

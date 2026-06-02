@@ -22,9 +22,10 @@ via GitHub Pages.
 ## 🎨 Brand system
 
 Sourced directly from the Causeloop brand guidelines. The full kit — an
-interactive guide, written spec with copy-paste design tokens, and vector logo
-assets — lives in [`brand/`](brand/) (`brand/index.html`, `brand/BRAND.md`,
-`brand/logos/`). Use it for the platform UI as well as the site.
+interactive guide, written spec with copy-paste design tokens, vector logo
+assets, and a looping brand animation — lives in [`brand/`](brand/)
+(`brand/index.html`, `brand/animation.html`, `brand/BRAND.md`, `brand/logos/`).
+Use it for the platform UI as well as the site.
 
 | Token | Hex | Role |
 | --- | --- | --- |

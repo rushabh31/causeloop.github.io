@@ -49,6 +49,9 @@
   .lock{display:flex;align-items:center;gap:11px}
   .lock .mark{width:30px;height:30px}
   .lock .wm{font-family:var(--f-display);font-weight:800;font-size:1.3rem;letter-spacing:-.05em;color:var(--text)}
+  .wm,.hero-wm{display:inline-flex;align-items:baseline;white-space:nowrap}
+  .wm-oo{width:1.16em;height:.82em;align-self:center;margin:0 .015em;position:relative;top:.02em;flex:none}
+  .wm-tld{color:var(--terra);letter-spacing:-.03em}
   .toggle{width:38px;height:38px;border-radius:50%;border:1.5px solid var(--border-2);background:none;color:var(--text-soft);cursor:pointer;font-size:1rem;transition:.25s var(--ease)}
   .toggle:hover{color:var(--cyan);border-color:var(--cobalt);transform:rotate(18deg)}
 
@@ -156,16 +159,21 @@
     <path d="M49 7 L47.54 15.03 L41.22 9.49 Z" fill="currentColor"/>
     <circle cx="25.5" cy="14.15" r="3.8" fill="#E2603F"/>
   </symbol>
+  <symbol id="inf" viewBox="24 6 52 38">
+    <path d="M50 25 C50 13 30 13 30 25 C30 37 50 37 50 25 C50 13 70 13 70 25 C70 37 50 37 50 25 Z"
+          fill="none" stroke="url(#clg)" stroke-width="8.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="50" cy="25" r="4.4" fill="#E2603F"/>
+  </symbol>
 </defs></svg>
 
 <div class="topbar"><nav>
-  <div class="lock"><svg class="mark"><use href="#mk"/></svg><span class="wm">causeloop</span></div>
+  <div class="lock"><svg class="mark"><use href="#mk"/></svg><span class="wm">causel<svg class="wm-oo" aria-hidden="true"><use href="#inf"/></svg>p<span class="wm-tld">.ai</span></span></div>
   <button class="toggle" id="t" aria-label="Toggle theme">◑</button>
 </nav></div>
 
 <header class="wrap">
   <svg class="hero-mark mark"><use href="#mk"/></svg>
-  <div class="hero-wm">causeloop</div>
+  <div class="hero-wm">causel<svg class="wm-oo" aria-hidden="true"><use href="#inf"/></svg>p<span class="wm-tld">.ai</span></div>
   <div class="hero-tag">Find the <span class="hl">cause</span>, break the <span class="hl">loop</span>.</div>
   <p class="hero-sub">Brand &amp; design system — logo, app icon, colour, typography, tokens and UI primitives for the platform and beyond.</p>
 </header>
@@ -192,10 +200,10 @@
     <h2>Lockups</h2>
     <p class="lede">Primary blue-gradient mark with the Schibsted Grotesk wordmark. Use reversed on dark surfaces; use single-colour where colour isn't available.</p>
     <div class="grid">
-      <div class="card"><span class="t mono">Primary</span><div class="ll" style="color:var(--navy)"><svg class="mark"><use href="#mk"/></svg><span class="wm" style="color:var(--text)">causeloop</span></div></div>
-      <div class="card"><span class="t mono">Stacked</span><div class="ll stk"><svg class="mark"><use href="#mk"/></svg><span class="wm" style="color:var(--text)">causeloop</span></div></div>
-      <div class="card dark"><span class="t mono">Reversed</span><div class="ll" style="color:#F4F6FB"><svg class="mark"><use href="#mk"/></svg><span class="wm" style="color:#F4F6FB">causeloop</span></div></div>
-      <div class="card"><span class="t mono">Monochrome</span><div class="ll" style="color:var(--text)"><svg class="mark"><use href="#mkw"/></svg><span class="wm" style="color:var(--text)">causeloop</span></div></div>
+      <div class="card"><span class="t mono">Primary</span><div class="ll" style="color:var(--navy)"><svg class="mark"><use href="#mk"/></svg><span class="wm" style="color:var(--text)">causel<svg class="wm-oo" aria-hidden="true"><use href="#inf"/></svg>p<span class="wm-tld">.ai</span></span></div></div>
+      <div class="card"><span class="t mono">Stacked</span><div class="ll stk"><svg class="mark"><use href="#mk"/></svg><span class="wm" style="color:var(--text)">causel<svg class="wm-oo" aria-hidden="true"><use href="#inf"/></svg>p<span class="wm-tld">.ai</span></span></div></div>
+      <div class="card dark"><span class="t mono">Reversed</span><div class="ll" style="color:#F4F6FB"><svg class="mark"><use href="#mk"/></svg><span class="wm" style="color:#F4F6FB">causel<svg class="wm-oo" aria-hidden="true"><use href="#inf"/></svg>p<span class="wm-tld">.ai</span></span></div></div>
+      <div class="card"><span class="t mono">Monochrome</span><div class="ll" style="color:var(--text)"><svg class="mark"><use href="#mkw"/></svg><span class="wm" style="color:var(--text)">causel<svg class="wm-oo" aria-hidden="true"><use href="#inf"/></svg>p<span class="wm-tld">.ai</span></span></div></div>
     </div>
   </section>
 
@@ -203,7 +211,7 @@
     <div class="eyebrow">Usage</div>
     <h2>Clear space &amp; minimum size</h2>
     <div class="spec">
-      <div class="card"><div class="cs-box"><div class="ll" style="color:var(--navy)"><svg class="mark"><use href="#mk"/></svg><span class="wm" style="color:var(--text)">causeloop</span></div></div><span class="mono">Clear space ≥ the height of the mark</span></div>
+      <div class="card"><div class="cs-box"><div class="ll" style="color:var(--navy)"><svg class="mark"><use href="#mk"/></svg><span class="wm" style="color:var(--text)">causel<svg class="wm-oo" aria-hidden="true"><use href="#inf"/></svg>p<span class="wm-tld">.ai</span></span></div></div><span class="mono">Clear space ≥ the height of the mark</span></div>
       <div class="card"><div class="sizes">
         <div class="s"><svg class="mark" style="width:40px;height:40px"><use href="#mk"/></svg><span>40 px</span></div>
         <div class="s"><svg class="mark" style="width:24px;height:24px"><use href="#mk"/></svg><span>24 px</span></div>

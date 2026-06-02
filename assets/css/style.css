@@ -97,7 +97,20 @@ svg.mark{display:block}
   font-weight:800;
   letter-spacing:-.05em;
   color:var(--text);
+  display:inline-flex;
+  align-items:baseline;
+  white-space:nowrap;
 }
+/* the "oo" rendered as a brand infinity */
+.wm-oo{
+  width:1.16em;height:.82em;
+  align-self:center;
+  margin:0 .015em;
+  position:relative;top:.02em;
+  flex:none;
+}
+/* the .ai top-level domain, in brand orange */
+.wm-tld{color:var(--terra);letter-spacing:-.03em}
 .lock{display:flex;align-items:center;gap:11px}
 .lock .wm{font-size:1.32rem}
 .lock.sm .mark{width:22px;height:22px}

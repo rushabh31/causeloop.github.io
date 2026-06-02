@@ -41,6 +41,13 @@
     <path d="M49 7 L47.54 15.03 L41.22 9.49 Z" fill="url(#clg)"/>
     <circle cx="25.5" cy="14.15" r="3.8" fill="#E2603F"/>
   </symbol>
+  <!-- The "oo" of causeloop, drawn as an infinity (the recurring loop) in the brand
+       gradient, with the terracotta cause-point at the crossover. -->
+  <symbol id="inf" viewBox="24 6 52 38">
+    <path d="M50 25 C50 13 30 13 30 25 C30 37 50 37 50 25 C50 13 70 13 70 25 C70 37 50 37 50 25 Z"
+          fill="none" stroke="url(#clg)" stroke-width="8.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="50" cy="25" r="4.4" fill="#E2603F"/>
+  </symbol>
 </defs></svg>
 
 <a class="skip-link" href="#main">Skip to content</a>
@@ -50,7 +57,7 @@
   <nav class="nav wrap" aria-label="Primary">
     <a class="lock" href="#top" aria-label="Causeloop home">
       <svg class="mark" aria-hidden="true"><use href="#mk"/></svg>
-      <span class="wm">causeloop</span>
+      <span class="wm">causel<svg class="wm-oo" aria-hidden="true"><use href="#inf"/></svg>p<span class="wm-tld">.ai</span></span>
     </a>
 
     <div class="nav-links" id="navLinks">
@@ -106,7 +113,7 @@
         <!-- Living "loop graph" illustration -->
         <div class="art-card">
           <div class="art-head">
-            <div class="lock sm"><svg class="mark"><use href="#mk"/></svg><span class="wm">causeloop</span></div>
+            <div class="lock sm"><svg class="mark"><use href="#mk"/></svg><span class="wm">causel<svg class="wm-oo" aria-hidden="true"><use href="#inf"/></svg>p<span class="wm-tld">.ai</span></span></div>
             <span class="pill"><span class="pulse"></span>Root cause found</span>
           </div>
           <svg class="loopgraph" viewBox="0 0 360 240" role="img" aria-label="Thematic pattern graph connecting scattered issues to a single root cause">
@@ -247,7 +254,7 @@
       <!-- Dashboard mockup -->
       <div class="dash reveal" style="--d:.1s" aria-hidden="true">
         <div class="dash-bar">
-          <div class="lock sm"><svg class="mark"><use href="#mk"/></svg><span class="wm">causeloop</span></div>
+          <div class="lock sm"><svg class="mark"><use href="#mk"/></svg><span class="wm">causel<svg class="wm-oo" aria-hidden="true"><use href="#inf"/></svg>p<span class="wm-tld">.ai</span></span></div>
           <div class="dots"><span></span><span></span><span></span></div>
         </div>
         <div class="dash-body">
@@ -446,7 +453,7 @@
     <div class="footer-brand">
       <a class="lock" href="#top" aria-label="Causeloop home">
         <svg class="mark" aria-hidden="true"><use href="#mk"/></svg>
-        <span class="wm">causeloop</span>
+        <span class="wm">causel<svg class="wm-oo" aria-hidden="true"><use href="#inf"/></svg>p<span class="wm-tld">.ai</span></span>
       </a>
       <p class="footer-tag">Find the <span class="hl">cause</span>, break the <span class="hl">loop</span>.</p>
     </div>
@@ -465,7 +472,7 @@
     </nav>
   </div>
   <div class="wrap footer-bottom">
-    <span>© <span id="year">2026</span> Causeloop. All rights reserved.</span>
+    <span>© <span id="year">2026</span> Causeloop.ai · All rights reserved.</span>
     <span class="mono">FIND THE CAUSE · BREAK THE LOOP</span>
   </div>
 </footer>

@@ -33,7 +33,7 @@
           fill="none" stroke="url(#clg)" stroke-width="8.4" stroke-linecap="round" stroke-linejoin="round"/>
     <circle cx="50" cy="25" r="4.4" fill="#E2603F"/>
   </g>
-  <text id="c2" x="456" y="360" font-family="'Schibsted Grotesk',Arial,sans-serif" font-weight="800" font-size="92" letter-spacing="-4"><tspan fill="#FFFFFF">p</tspan><tspan fill="#E2603F">.ai</tspan></text>
+  <text id="c2" x="456" y="360" font-family="'Schibsted Grotesk',Arial,sans-serif" font-weight="800" font-size="92" letter-spacing="-4" fill="#FFFFFF">p</text>
   <text x="98" y="430" font-family="'Schibsted Grotesk',Arial,sans-serif" font-weight="500" font-size="40" fill="#F4D9D0">Find the <tspan fill="#E2603F">cause</tspan>, break the <tspan fill="#E2603F">loop</tspan>.</text>
   <text x="98" y="500" font-family="Arial,sans-serif" font-size="30" fill="#98A0B5">AI-native risk intelligence for the enterprise</text>
 </svg>

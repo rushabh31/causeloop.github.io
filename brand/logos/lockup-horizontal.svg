@@ -1,6 +1,6 @@
 <!-- Causeloop.ai primary horizontal lockup. The "oo" is the brand infinity; ".ai" in
      terracotta. Wordmark = Schibsted Grotesk 800 (web font @import). Outline type for print. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 80" width="430" height="80" role="img" aria-label="causeloop.ai">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="300" height="80" role="img" aria-label="causeloop">
   <defs>
     <style>@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@800&amp;display=swap');
       .w{font-family:'Schibsted Grotesk',Arial,sans-serif;font-weight:800;font-size:44px;letter-spacing:-2.2px}</style>
@@ -23,5 +23,5 @@
           fill="none" stroke="url(#clg)" stroke-width="8.4" stroke-linecap="round" stroke-linejoin="round"/>
     <circle cx="50" cy="25" r="4.4" fill="#E2603F"/>
   </g>
-  <text class="w" x="253" y="54"><tspan fill="#1E2A5A">p</tspan><tspan fill="#E2603F">.ai</tspan></text>
+  <text class="w" x="253" y="54" fill="#1E2A5A">p</text>
 </svg>

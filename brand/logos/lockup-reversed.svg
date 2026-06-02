@@ -1,5 +1,5 @@
 <!-- Causeloop.ai reversed lockup for dark backgrounds. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 80" width="430" height="80" role="img" aria-label="causeloop.ai">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="300" height="80" role="img" aria-label="causeloop">
   <defs>
     <style>@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@800&amp;display=swap');
       .w{font-family:'Schibsted Grotesk',Arial,sans-serif;font-weight:800;font-size:44px;letter-spacing:-2.2px}</style>
@@ -7,7 +7,7 @@
       <stop offset="0" stop-color="#4A78FF"/><stop offset="1" stop-color="#1FC2FF"/>
     </linearGradient>
   </defs>
-  <rect width="430" height="80" fill="#10172E"/>
+  <rect width="300" height="80" fill="#10172E"/>
   <g transform="translate(8,8)">
     <g fill="none" stroke="url(#clg)" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round">
       <path d="M41.5 15.55 A19 19 0 1 1 25.5 14.15"/><path d="M41.5 15.55 L44.38 12.26"/>
@@ -21,5 +21,5 @@
           fill="none" stroke="url(#clg)" stroke-width="8.4" stroke-linecap="round" stroke-linejoin="round"/>
     <circle cx="50" cy="25" r="4.4" fill="#E2603F"/>
   </g>
-  <text class="w" x="253" y="54"><tspan fill="#FFFFFF">p</tspan><tspan fill="#E2603F">.ai</tspan></text>
+  <text class="w" x="253" y="54" fill="#FFFFFF">p</text>
 </svg>

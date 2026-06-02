@@ -437,7 +437,7 @@ svg.mark{display:block}
 .team-block{margin-top:80px;padding-top:60px;border-top:1px solid var(--border)}
 .sub-title{font-size:clamp(1.55rem,3.2vw,2.1rem)}
 .team-block .sec-head{margin-bottom:34px}
-.team-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:6px}
+.team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:6px;max-width:780px;margin-inline:auto}
 .founder{
   background:var(--surface);border:1px solid var(--border);border-radius:var(--r);
   padding:28px 22px;text-align:center;box-shadow:var(--shadow-sm);

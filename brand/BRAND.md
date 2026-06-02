@@ -20,12 +20,12 @@ point** marks the root cause the platform surfaces.
 
 ### Wordmark
 
-The wordmark is **causeloop.ai** set in Schibsted Grotesk 800. The **"oo"** is
+The wordmark is **causeloop** set in Schibsted Grotesk 800. The **"oo"** is
 rendered as a **brand infinity** (the recurring loop, never-ending) in the blue
-gradient, with the terracotta cause-point at the crossover. The **`.ai`** TLD is
-set in **terracotta** `#E2603F`. On the web this is built from live type + an
-inline `#inf` SVG glyph (`.wm-oo` / `.wm-tld` in `assets/css/style.css`); in the
-static lockups the type is positioned around the same infinity path.
+gradient, with the terracotta cause-point at the crossover — the signature,
+catchy detail. On the web this is built from live type + an inline `#inf` SVG
+glyph (`.wm-oo` in `assets/css/style.css`); in the static lockups the type is
+positioned around the same infinity path.
 
 ### Variants & files (`brand/logos/`)
 
